@@ -37,7 +37,7 @@ O DevLinks é um agregador de links para usar como cartão de visitas online.
 
 Através desse projeto coloquei em prática conhecimento adquiridos nas tecnologias descritas logo acima
 
-- [Acesse o projeto original finalizado](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado](https://renato-dilabio.github.io/Agregador-de-Links/)
 
 - [Assistir aulas](https://app.rocketseat.com.br/?to=%2Fdiscover)
 
