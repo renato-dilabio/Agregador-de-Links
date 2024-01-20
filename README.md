@@ -35,13 +35,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+Através desse projeto coloquei em prática conhecimento adquiridos nas tecnologias descritas logo acima
+
+- [Acesse o projeto original finalizado](https://maykbrito.github.io/devlinks)
 
 - [Assistir aulas](https://app.rocketseat.com.br/?to=%2Fdiscover)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout original do projeto desenvolvido pela equipe da Rocketseat através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
