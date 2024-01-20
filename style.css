@@ -7,21 +7,21 @@
 :root {
   --text-color: #f0f0f0;
   --stroke-color: rgba(255, 255, 255, 0.5);
-  --bg-url: url(./assets/assets/bg-mobile.jpg);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --stroke-color-hover: rgba(255, 255, 255, 0.8);
-  --switch-bg-url: url(./assets/assets/moon-stars.svg);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
   --text-color: black;
   --stroke-color: rgba(0, 0, 0, 0.5);
-  --bg-url: url(./assets/assets/bg-mobile-light.jpg);
+  --bg-url: url(./assets/bg-mobile-light.jpg);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.08);
   --stroke-color-hover: rgba(0, 0, 0, 0.8);
-  --switch-bg-url: url(./assets/assets/sun.svg);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
@@ -37,6 +37,7 @@ body {
   background: color image no-repeat position/size 
   */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh; /* viewport hight */
 }
 
 body * {
@@ -45,7 +46,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*height: 712px;*/
   /*border: 1px solid blue;*/
   margin: auto;
@@ -177,4 +179,15 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
